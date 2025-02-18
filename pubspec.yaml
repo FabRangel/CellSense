@@ -1,0 +1,23 @@
+name: cellsense
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.10.2  # Para cargar el modelo YOLO
+  camera: ^0.10.5  # Para capturar imágenes en tiempo real
+  image: ^3.0.1  # Para preprocesar imágenes
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
