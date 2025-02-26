@@ -1,12 +1,12 @@
+import 'package:cellsense/screen/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:cellsense/HomeScreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const CellSenseApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class CellSenseApp extends StatelessWidget {
+  const CellSenseApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
